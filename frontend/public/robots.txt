@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://buildestate.vercel.app/sitemap.xml
+
+# Prevent access to sensitive routes
+Disallow: /reset/
+Disallow: /forgot-password/

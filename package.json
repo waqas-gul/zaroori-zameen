@@ -1,0 +1,45 @@
+{
+  "name": "buildestate",
+  "version": "1.0.0",
+  "description": "BuildEstate - Premium Real Estate Platform with AI-Powered Insights",
+  "private": true,
+  "scripts": {
+    "setup": "npm install && cd backend && npm install && cd ../frontend && npm install && cd ../admin && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\" \"cd admin && npm run dev\"",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build && cd ../admin && npm run build",
+    "start": "cd backend && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "backend",
+    "frontend",
+    "admin"
+  ],
+  "keywords": [
+    "real-estate",
+    "property",
+    "ai",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "Waqas Gul",
+  "license": "MIT",
+  "repository": {
+    "type": "git"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  },
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@reduxjs/toolkit": "^2.7.0",
+    "express-async-handler": "^1.2.0",
+    "imagekit": "^6.0.0",
+    "jwt-decode": "^4.0.0",
+    "node-schedule": "^2.1.1",
+    "react-redux": "^9.2.0",
+    "sweetalert2": "^11.19.1",
+    "sweetalert2-react-content": "^5.1.0"
+  }
+}

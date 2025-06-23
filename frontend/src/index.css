@@ -1,0 +1,15 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add to your global CSS or relevant component */
+
+
+.filter-group {
+  @apply space-y-3;
+}
+
+.filter-label {
+  @apply flex items-center text-gray-700 font-medium text-sm;
+}
