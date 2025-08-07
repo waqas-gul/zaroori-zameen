@@ -10,11 +10,11 @@ A comprehensive real estate marketplace connecting buyers and sellers with advan
 
 | Feature              | Screenshot                            |
 | -------------------- | ------------------------------------- |
-| **Homepage**         | ![Homepage](/screenshot/admin.png)    |
-| **Property Search**  | ![Search](/screenshot/add.png)        |
-| **Property Details** | ![Details](/screenshot/property.png)  |
-| **Virtual Tours**    | ![Tours](/screenshots/Ai.png)         |
-| **Admin Dashboard**  | ![Dashboard](/screenshot/approve.png) |
+| **Admin dashboard**         | ![Homepage](/screenshot/admin.png)    |
+| **Add property**  | ![Search](/screenshot/add.png)        |
+| **Property page** | ![Details](/screenshot/property.png)  |
+| **AI property hub**    | ![Tours](/screenshots/Ai.png)         |
+| **Admin properties managment**  | ![Dashboard](/screenshot/approve.png) |
 
 [![Live Demo](https://img.shields.io/badge/VIEW_LIVE_DEMO-FF5722?style=for-the-badge)](https://zaroori-zameen.netlify.app/)
 
